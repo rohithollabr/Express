@@ -18,7 +18,7 @@ module.exports = class extends Command {
         password = Math.random().toString(36).slice(-8);
     }
     var url = "https://pddimp.yandex.ru/api2/admin/email/add";
-    var pddtoken = "QW6Y3OFLLAISUSVUP5JYOIXOF4XMY5S7JHQ5RXLKFR5NYBIE4XHA";
+    var pddtoken = process.env.PDDTOKEN; //add the token to your env
     var domain = "postephil.cf";
     request(url, {
         headers: {
