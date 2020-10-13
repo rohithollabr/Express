@@ -23,6 +23,10 @@
         "description": "Your Discord user ID, needed for some commands...",
         "required": "true"
       },
+      "PDDTOKEN": {
+        "description": "To make temp mail feature available on your bot instance, you need your Yandex PDD token",
+        "required": "false"
+      },
       "HOST": {
         "description": "Your Lavalink host that must have as port 80. If you don't have a Lavalink host, just leave the value as it is.",
         "value": "express-lavalink.herokuapp.com",
