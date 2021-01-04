@@ -4,11 +4,6 @@ Express is a music and moderation bot with simple commands and made in discord.j
 
 [![Discord Bots](https://top.gg/api/widget/698085345086013480.svg)](https://top.gg/bot/698085345086013480)
 
-## Usage
-
-Just invite the bot on your Discord server [here](https://itzlightyhd.cf/express).
-
-To discover the commands, just do x!help on your Discord server
 
 ## Own instance
 
