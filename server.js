@@ -8,4 +8,4 @@ try {
   manager.spawn(2);
 } catch (err) {
 }
-manager.on('shardCreate', (shard) => console.log(`[Express Service] Shard ${shard.id} launched successfully`));
+manager.on('shardCreate', (shard) => console.log(`[Express Service] Shards ${shard.id} launched successfully`));
